@@ -12,6 +12,8 @@
     <OutputPath>.</OutputPath>
     <Name>MedianApproximation_Pulsars</Name>
     <RootNamespace>MedianApproximation_Pulsars</RootNamespace>
+    <InterpreterId>{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +25,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="MedianApproximation_Pulsars.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

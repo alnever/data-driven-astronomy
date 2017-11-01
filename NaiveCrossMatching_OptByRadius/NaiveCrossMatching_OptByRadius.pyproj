@@ -3,16 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>aa2dda8e-7c31-453c-b90a-2da72c5a96d9</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>CrossValidation_BlackHoles.py</StartupFile>
+    <ProjectGuid>6b44c5db-fee8-41ac-a12f-6d63f05c907e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>NaiveCrossMatching_OptByRadius.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>CrossValidation_BlackHoles</Name>
-    <RootNamespace>Cross-1</RootNamespace>
+    <Name>NaiveCrossMatching_OptByRadius</Name>
+    <RootNamespace>NaiveCrossMatching_OptByRadius</RootNamespace>
     <InterpreterId>{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
@@ -25,7 +24,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CrossValidation_BlackHoles.py" />
+    <Compile Include="NaiveCrossMatching_OptByRadius.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}\3.5" />

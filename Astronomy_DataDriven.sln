@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication2", "PythonApplication2\PythonApplication2.pyproj", "{915D3EFB-6608-473E-A3C6-0735E97B789B}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CrossValidation_BlackHoles", "Cross-1\CrossValidation_BlackHoles.pyproj", "{AA2DDA8E-7C31-453C-B90A-2DA72C5A96D9}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{4976D150-D6C4-4666-9959-D6A2224FEE26}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MeanFITS_Pulsars", "MeanFITS_Pulsars\MeanFITS_Pulsars.pyproj", "{978C385C-F4CB-4BDC-B5EB-ECF8C433A1B0}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication3", "PythonApplication3\PythonApplication3.pyproj", "{47621107-4A48-4FF7-B8D2-55DF701C2C7A}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MedianFITS_Pulsars", "MedianFITS_Pulsars\MedianFITS_Pulsars.pyproj", "{4A63E764-98B0-4A03-A515-8A85D25802E6}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Cross-1", "Cross-1\Cross-1.pyproj", "{AA2DDA8E-7C31-453C-B90A-2DA72C5A96D9}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MedianApproximation_Pulsars", "MedianApproximation_Pulsars\MedianApproximation_Pulsars.pyproj", "{48F35185-7D47-4C2E-99DD-1C33C91E975C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaiveCrossMatching", "NaiveCrossMatching\NaiveCrossMatching.pyproj", "{D8F76AAA-0F6A-46BA-8584-8C700EF3C403}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Degree_and_Radian", "Degree_and_Radian\Degree_and_Radian.pyproj", "{5FD77477-D4A5-4B6D-BA44-BD3C0D4AAEAE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaiveCrossMatching_Radians", "NaiveCrossMatching_Radians\NaiveCrossMatching_Radians.pyproj", "{AEEE2D0D-D8EA-4885-9B3B-B4251E48D450}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaiveCrossMatching_OptByRadius", "NaiveCrossMatching_OptByRadius\NaiveCrossMatching_OptByRadius.pyproj", "{6B44C5DB-FEE8-41AC-A12F-6D63F05C907E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +25,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{915D3EFB-6608-473E-A3C6-0735E97B789B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{915D3EFB-6608-473E-A3C6-0735E97B789B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4976D150-D6C4-4666-9959-D6A2224FEE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4976D150-D6C4-4666-9959-D6A2224FEE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47621107-4A48-4FF7-B8D2-55DF701C2C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47621107-4A48-4FF7-B8D2-55DF701C2C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2DDA8E-7C31-453C-B90A-2DA72C5A96D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA2DDA8E-7C31-453C-B90A-2DA72C5A96D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978C385C-F4CB-4BDC-B5EB-ECF8C433A1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978C385C-F4CB-4BDC-B5EB-ECF8C433A1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A63E764-98B0-4A03-A515-8A85D25802E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A63E764-98B0-4A03-A515-8A85D25802E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F35185-7D47-4C2E-99DD-1C33C91E975C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F35185-7D47-4C2E-99DD-1C33C91E975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F76AAA-0F6A-46BA-8584-8C700EF3C403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F76AAA-0F6A-46BA-8584-8C700EF3C403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD77477-D4A5-4B6D-BA44-BD3C0D4AAEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD77477-D4A5-4B6D-BA44-BD3C0D4AAEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEE2D0D-D8EA-4885-9B3B-B4251E48D450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEE2D0D-D8EA-4885-9B3B-B4251E48D450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B44C5DB-FEE8-41AC-A12F-6D63F05C907E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B44C5DB-FEE8-41AC-A12F-6D63F05C907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
