@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication2", "PythonApplication2\PythonApplication2.pyproj", "{915D3EFB-6608-473E-A3C6-0735E97B789B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{4976D150-D6C4-4666-9959-D6A2224FEE26}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication3", "PythonApplication3\PythonApplication3.pyproj", "{47621107-4A48-4FF7-B8D2-55DF701C2C7A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Cross-1", "Cross-1\Cross-1.pyproj", "{AA2DDA8E-7C31-453C-B90A-2DA72C5A96D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{915D3EFB-6608-473E-A3C6-0735E97B789B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915D3EFB-6608-473E-A3C6-0735E97B789B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4976D150-D6C4-4666-9959-D6A2224FEE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4976D150-D6C4-4666-9959-D6A2224FEE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47621107-4A48-4FF7-B8D2-55DF701C2C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47621107-4A48-4FF7-B8D2-55DF701C2C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2DDA8E-7C31-453C-B90A-2DA72C5A96D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2DDA8E-7C31-453C-B90A-2DA72C5A96D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
