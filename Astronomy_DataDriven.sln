@@ -21,6 +21,22 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaiveCrossMatching_OptByRad
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KDTreeCrossMatching", "KDTreeCrossMatching\KDTreeCrossMatching.pyproj", "{D7B8F959-0384-4540-B3A5-7CA61A845728}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonSQL_StarCluster", "PythonSQL_StarCluster\PythonSQL_StarCluster.pyproj", "{5547004C-8307-49E6-AD99-0827B02EBA48}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Galaxies", "RegressionClassifier_Galaxies\RegressionClassifier_Galaxies.pyproj", "{4D6A75C8-2AF3-462F-B8DC-00BBA524A21B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Galaxies_Plots", "RegressionClassifier_Galaxies_Plots\RegressionClassifier_Galaxies_Plots.pyproj", "{8387EADE-8D9B-4F3B-92E6-6D8C6AB016F1}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Galaxies_Accuracy", "RegressionClassifier_Galaxies_Accuracy\RegressionClassifier_Galaxies_Accuracy.pyproj", "{BC9B8874-2FDB-486B-928D-DC596354A0A8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Galaxies_KFold", "RegressionClassifier_Galaxies_KFold\RegressionClassifier_Galaxies_KFold.pyproj", "{5D76A543-C6F3-4164-8025-93A0041E7BF6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Galaxies_CrossValidation", "RegressionClassifier_Galaxies_CrossValidation\RegressionClassifier_Galaxies_CrossValidation.pyproj", "{6C208BA0-084C-4501-8C9C-3E79DABD85EB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Galaxies_vs_QSOs", "RegressionClassifier_Galaxies_vs_QSOs\RegressionClassifier_Galaxies_vs_QSOs.pyproj", "{6B63083A-7F63-4C01-84D9-EBEC59AC3587}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Calaxies_vs_QSOs_2", "RegressionClassifier_Calaxies_vs_QSOs_2\RegressionClassifier_Calaxies_vs_QSOs_2.pyproj", "{4DD97974-147B-4BB0-A64A-1C685A60FCFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +61,22 @@ Global
 		{6B44C5DB-FEE8-41AC-A12F-6D63F05C907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B8F959-0384-4540-B3A5-7CA61A845728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7B8F959-0384-4540-B3A5-7CA61A845728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5547004C-8307-49E6-AD99-0827B02EBA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5547004C-8307-49E6-AD99-0827B02EBA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6A75C8-2AF3-462F-B8DC-00BBA524A21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6A75C8-2AF3-462F-B8DC-00BBA524A21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8387EADE-8D9B-4F3B-92E6-6D8C6AB016F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8387EADE-8D9B-4F3B-92E6-6D8C6AB016F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9B8874-2FDB-486B-928D-DC596354A0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9B8874-2FDB-486B-928D-DC596354A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D76A543-C6F3-4164-8025-93A0041E7BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D76A543-C6F3-4164-8025-93A0041E7BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C208BA0-084C-4501-8C9C-3E79DABD85EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C208BA0-084C-4501-8C9C-3E79DABD85EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B63083A-7F63-4C01-84D9-EBEC59AC3587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B63083A-7F63-4C01-84D9-EBEC59AC3587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD97974-147B-4BB0-A64A-1C685A60FCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD97974-147B-4BB0-A64A-1C685A60FCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
