@@ -37,6 +37,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Galaxi
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionClassifier_Calaxies_vs_QSOs_2", "RegressionClassifier_Calaxies_vs_QSOs_2\RegressionClassifier_Calaxies_vs_QSOs_2.pyproj", "{4DD97974-147B-4BB0-A64A-1C685A60FCFB}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MachineLearning_Galaxies", "MachineLearning_Galaxies\MachineLearning_Galaxies.pyproj", "{D525FD85-F324-48C1-8E0A-7AE67A353C0A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RandomTrees_Galaxies", "RandomTrees_Galaxies\RandomTrees_Galaxies.pyproj", "{BCE038AD-EF44-493F-835C-45DFCBED5B7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,10 @@ Global
 		{6B63083A-7F63-4C01-84D9-EBEC59AC3587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DD97974-147B-4BB0-A64A-1C685A60FCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4DD97974-147B-4BB0-A64A-1C685A60FCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D525FD85-F324-48C1-8E0A-7AE67A353C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D525FD85-F324-48C1-8E0A-7AE67A353C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE038AD-EF44-493F-835C-45DFCBED5B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE038AD-EF44-493F-835C-45DFCBED5B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
